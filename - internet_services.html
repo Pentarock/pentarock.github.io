@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Product</title>
+<title>Checkout</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Sublime project">
@@ -9,11 +9,8 @@
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href='https://fonts.googleapis.com/css?family=Faster One' rel='stylesheet'>
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/product.css">
-<link rel="stylesheet" type="text/css" href="styles/product_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/checkout.css">
+<link rel="stylesheet" type="text/css" href="styles/checkout_responsive.css">
 </head>
 <body>
 
@@ -168,14 +165,18 @@
 
 	<div class="home">
 		<div class="home_container">
-			<div class="home_background" style="background-image:url(images/categories.jpg)"></div>
+			<div class="home_background" style="background-image:url(images/banners/internet_services.jpg)"></div>
 			<div class="home_content_container">
 				<div class="container">
 					<div class="row">
 						<div class="col">
 							<div class="home_content">
-								<div class="home_title">Bidhaa zote<span>.</span></div>
-								<div class="home_text"><p>Tunauza bidhaa mbalimabali kutegemea na maitaji yako kwa bei nafuu.</p></div>
+								<div class="breadcrumbs">
+									<ul>
+										<li><a href="index.html">Home</a></li>
+										<li>Internet service</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -184,90 +185,64 @@
 		</div>
 	</div>
 
+	<!-- Checkout -->
 	
-	<!-- Products -->
-
-	<div class="products">
+	<div class="checkout">
 		<div class="container">
 			<div class="row">
-				<div class="col text-center">
-					<div class="products_title">List of products</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col">
+
+				<!-- Billing Info -->
+				<div class="col-lg-6">
+					<div class="billing checkout_section">
+						<div class="section_title">Billing Address</div>
+						<div class="section_subtitle">Enter your address info
+                                                      <br><br>
+						                              Designing your site for a better conversion rate is a guaranteed way to increase sales. But you also need to consider general UX principles for your online shop, and this goes double for mobile users.
+                                                      The majority of Internet traffic is now dominated by mobile. In 2017 the estimated total for mobile users across the whole Internet hit around 52%. If you aren’t optimizing for mobile then you’re doing ecommerce wrong.
+                                                      I’ve curated some design ideas to help you clean up that checkout page. These tips may not apply the same to every shop, and the differences hinge on the type of products you sell.
+                                                      Although if you’re serious about increasing conversions this guide is your first step to a larger mobile customer base.
 					
-					<div class="product_grid">
-
-						<!-- Producta1 -->
-						<div class="product">
-							<div class="product_image"><img src="images/product_1.jpg" alt=""></div>
-							<div class="product_extra product_new"><a href="categories.html">New</a></div>
-							<div class="product_content">
-								<div class="product_title"><a href="product.html">Smart Phone</a></div>
-								<div class="product_price"></div>
-							</div>
-						</div>
-
-						<!-- Producta2 -->
-						<div class="product">
-							<div class="product_image"><img src="images/product_2.jpg" alt=""></div>
-							<div class="product_extra product_sale"><a href="categories.html">Sale</a></div>
-							<div class="product_content">
-								<div class="product_title"><a href="product.html">Smart Phone</a></div>
-								<div class="product_price">$520</div>
-							</div>
-						</div>
-
-						<!-- Producta3 -->
-						<div class="product">
-							<div class="product_image"><img src="images/product_3.jpg" alt=""></div>
-							<div class="product_content">
-								<div class="product_title"><a href="product.html">Smart Phone</a></div>
-								<div class="product_price">$710</div>
-							</div>
-						</div>
-
-						<!-- Producta4 -->
-						<div class="product">
-							<div class="product_image"><img src="images/product_4.jpg" alt=""></div>
-							<div class="product_content">
-								<div class="product_title"><a href="product.html">Smart Phone</a></div>
-								<div class="product_price">$330</div>
-							</div>
-						</div>
-
-					</div>
+                        </div>
+                    </div>
 				</div>
-			</div>
-		</div>
-	</div>
 
-	<!-- Newsletter -->
+				<!-- Order Info -->
 
-	<div class="newsletter">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="newsletter_border"></div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-8 offset-lg-2">
-					<div class="newsletter_content text-center">
-                        <div class="newsletter_title"><a href="contact.html">Call us</a></div>
-						<div class="newsletter_text"> <ul>   <li>+255 672 759 998</li>
-						                                     <li>+255 623 439 082</li>
-                                                             <li>+255 689 600 622</li>
-                                                      </ul>
-                                                      </div>
-                                                        
-                        <div class="newsletter_form_container">
-							<form action="mailto:pentarocktz@gmail.com" id="newsletter_form" class="newsletter_form">
-								<input type="text" class="newsletter_input" required="required">
-                                <button class="newsletter_button trans_200"><span>Message <i class="fa fa-envelope-o"></i></span></button>
-							</form>
+				<div class="col-lg-6">
+					<div class="order checkout_section">
+						<div class="section_title">Cost details</div>
+						<div class="section_subtitle">Summary</div>
+
+						<!-- Order details -->
+						<div class="order_list_container">
+							<div class="order_list_bar d-flex flex-row align-items-center justify-content-start">
+								<div class="order_list_title"><span>Service</span></div>
+								<div class="order_list_value ml-auto"><span>Cost</span></div>
+							</div>
+							<ul class="order_list">
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div class="order_list_title">Picha 4</div>
+									<div class="order_list_value ml-auto">Tsh.1,500.00</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div class="order_list_title">Picha 8</div>
+									<div class="order_list_value ml-auto">Tsh.2,000.00</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div class="order_list_title">Kusafisha picha</div>
+									<div class="order_list_value ml-auto">Tsh.500.00</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div class="order_list_title">Usafirishaji</div>
+									<div class="order_list_value ml-auto">Bure</div>
+								</li>
+							</ul>
 						</div>
+
+						
+						<!-- Order Text -->
+						<div class="order_text">Sasa unaweza kupata hudumiwa kwa njia ya mtandao</div>
+						<div class="button order_button"><a href="#">Place Order</a></div>
 					</div>
 				</div>
 			</div>
@@ -285,7 +260,7 @@
 					<div class="footer_content d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
 						<div class="footer_logo"><a href="index.html">Pentarock.</a></div>
 						<div class="copyright ml-auto mr-auto">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</div>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> | All rights reserved</div>
 						<div class="footer_social ml-lg-auto">
 							<ul>
 								<li><a href="https://api.whatsapp.com/send?phone=255689600622&text=hellow"><i class="fa fa-whatsapp" style="font-size:36px"></i></a></li>
@@ -307,10 +282,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
 <script src="plugins/greensock/animation.gsap.min.js"></script>
 <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
 <script src="plugins/easing/easing.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="js/product.js"></script>
+<script src="js/checkout.js"></script>
 </body>
 </html>
