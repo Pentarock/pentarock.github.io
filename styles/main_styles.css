@@ -1002,10 +1002,11 @@ section
 .avds_title
 {
 	font-size: 48px;
-	font-weight: 600;
-	color: #FFFFFF;
+	font-weight: 700;
+	color: #d63e3e;
 	line-height: 1.16;
     font-family: 'Acme';
+    -webkit-text-stroke: 1.3px #ffffff;
 }
 .avds_title2
 {
@@ -1034,13 +1035,14 @@ section
     
 	margin-top: 18px;
 	padding-left: 4px;
+    
 }
 .avds_link a
 {
 	position: relative;
 	display: inline-block;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 600;
 	color: #FFFFFF;
 }
 .avds_link a::after
