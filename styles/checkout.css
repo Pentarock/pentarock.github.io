@@ -317,12 +317,12 @@ section
 {
 	width: 100%;
 	z-index: 1;
-	background: #FFFFFF;
+	background: #bde6c0;
 }
 .header_content
 {
 	width: 100%;
-	height: 130px;
+	height: 70px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -335,7 +335,7 @@ section
 }
 .logo a
 {
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: 700;
 	color: #1b1b1b;
 	-webkit-transition: all 200ms ease;
@@ -343,11 +343,13 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
-     font-family: 'Faster One';
+    font-family: 'Faster One';
+    
+
 }
 .header.scrolled .logo a
 {
-	font-size: 24px;
+	font-size: 40px;
 }
 .main_nav
 {
@@ -378,6 +380,10 @@ section
 {
 	color: #1b1b1b;
 }
+.main_nav > ul > li > ul > li.active > a
+{
+	color: #1b1b1b;
+}
 .main_nav ul li.hassubs::after
 {
 	position: absolute;
@@ -404,9 +410,9 @@ section
 	right: -15px;
 	top: calc(100% + 20px);
 	text-align: right;
-	background: #FFFFFF;
+	background: #c1e7c4;
 	padding-right: 25px;
-	padding-left: 35px;
+	padding-left: 25px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	visibility: hidden;
@@ -639,9 +645,9 @@ section
 	position: fixed;
 	top: 0;
 	right: -400px;
-	width: 400px;
+	width: 250px;
 	height: 100vh;
-	background: #e4e4e4;
+	background: #c7d5e1;
 	z-index: 101;
 }
 .menu.active
@@ -652,7 +658,7 @@ section
 {
 	width: 100%;
 	height: 0px;
-	padding-top: 130px;
+	padding-top: 70px;
 }
 .menu.active .menu_container
 {
@@ -812,7 +818,7 @@ section
 	height: 400px;
 	background: #FFFFFF;
 	z-index: 2;
-	padding-top: 130px;
+	padding-top: 72px;
 	padding-left: 60px;
 	padding-right: 60px;
 }

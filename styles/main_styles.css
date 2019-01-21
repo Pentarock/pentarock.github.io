@@ -318,12 +318,12 @@ section
 {
 	width: 100%;
 	z-index: 1;
-	background: #FFFFFF;
+	background: #bde6c0;
 }
 .header_content
 {
 	width: 100%;
-	height: 130px;
+	height: 70px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -350,11 +350,7 @@ section
 }
 .header.scrolled .logo a
 {
-	font-size: 24px;
-}
-.main_nav
-{
-	margin-left: 156px;
+	font-size: 40px;
 }
 .main_nav > ul > li
 {
@@ -407,9 +403,9 @@ section
 	right: -15px;
 	top: calc(100% + 20px);
 	text-align: right;
-	background: #FFFFFF;
+	background: #c1e7c4;
 	padding-right: 25px;
-	padding-left: 35px;
+	padding-left: 25px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	visibility: hidden;
@@ -445,6 +441,8 @@ section
 {
 	color: #1b1b1b;
 }
+
+
 .header_extra
 {
 
@@ -627,9 +625,9 @@ section
 	position: fixed;
 	top: 0;
 	right: -400px;
-	width: 400px;
+	width: 250px;
 	height: 100vh;
-	background: #e4e4e4;
+	background: #c7e1da;
 	z-index: 101;
 }
 .menu.active
@@ -640,7 +638,7 @@ section
 {
 	width: 100%;
 	height: 0px;
-	padding-top: 130px;
+	padding-top: 70px;
 }
 .menu.active .menu_container
 {
@@ -805,7 +803,7 @@ section
 {
 	width: 100%;
 	height: 100%;
-	padding-top: 130px;
+	padding-top: 45px;
 	padding-left: 60px;
 	padding-right: 60px;
 	padding-bottom: 30px;
