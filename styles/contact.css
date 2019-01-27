@@ -969,7 +969,7 @@ section
 }
 .contact_info_section:not(:first-child)
 {
-	margin-top: 74px;
+	margin-top: 44px;
 }
 .contact_info_title
 {
@@ -979,7 +979,7 @@ section
 }
 .contact_info_section ul
 {
-	margin-top: 46px;
+	margin-top: 10px;
 }
 .contact_info_section ul li
 {
